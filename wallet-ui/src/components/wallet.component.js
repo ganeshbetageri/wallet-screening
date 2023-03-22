@@ -40,12 +40,12 @@ export default class Wallet extends Component {
   }
 
   onChangeAddress(e) {
-    const adress = e.target.value;
+    const address = e.target.value;
     
     this.setState(prevState => ({
       currentWallet: {
         ...prevState.currentWallet,
-        Address: Address
+        address: address
       }
     }));
   }

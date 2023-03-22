@@ -118,17 +118,17 @@ export default class WalletsList extends Component {
           <h4>Wallets List</h4>
 
           <ul className="list-group">
-            {Wallets &&
-              Wallets.map((wallet, index) => (
+            {wallets &&
+              wallets.map((wallet, index) => (
                 <li
                   className={
                     "list-group-item " +
                     (index == currentIndex ? "active" : "")
                   }
-                  onClick={() => this.setActiveWallet(Wallet, index)}
+                  onClick={() => this.setActiveWallet(wallet, index)}
                   key={index}
                 >
-                  {Wallet.wallet}
+                  {wallet.wallet}
                 </li>
               ))}
           </ul>

@@ -38,7 +38,7 @@ app.get("/", (req, res) => {
   res.json({ message: "Welcome to wallet application." });
 });
 
-require("./app/routes/turorial.routes")(app);
+require("./app/routes/wallet.routes")(app);
 
 // set port, listen for requests
 const PORT = process.env.NODE_DOCKER_PORT || 8080;

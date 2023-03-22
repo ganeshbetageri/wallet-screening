@@ -37,7 +37,7 @@ export default class AddWallet extends Component {
       address: this.state.address
     };
 
-    WalletDataService.create(data)
+    WalletsDataService.create(data)
       .then(response => {
         this.setState({
           id: response.data.id,

@@ -5,7 +5,7 @@ import "./App.css";
 
 import AddWallet from "./components/add-wallet.component";
 import Wallet from "./components/wallet.component";
-import WalletsList from "./components/wallets-list.component";
+import WalletsList from "./components/wallet-list.component";
 
 class App extends Component {
   render() {
