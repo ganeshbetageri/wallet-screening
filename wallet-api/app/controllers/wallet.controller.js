@@ -12,7 +12,7 @@ exports.create = (req, res) => {
   // Create a Wallet
   const wallet = new Wallet({
     wallet: req.body.wallet,
-    address: req.body.Address,
+    address: req.body.address,
     published: req.body.published ? req.body.published : false
   });
 

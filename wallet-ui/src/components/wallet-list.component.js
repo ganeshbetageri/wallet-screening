@@ -154,7 +154,7 @@ export default class WalletsList extends Component {
                 <label>
                   <strong>Wallet Address:</strong>
                 </label>{" "}
-                {currentWallet.Address}
+                {currentWallet.address}
               </div>
               <div>
                 <label>

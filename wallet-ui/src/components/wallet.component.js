@@ -67,7 +67,7 @@ export default class Wallet extends Component {
     var data = {
       id: this.state.currentWallet.id,
       wallet: this.state.currentWallet.wallet,
-      Address: this.state.currentWallet.Address,
+      address: this.state.currentWallet.address,
       published: status
     };
 
@@ -138,7 +138,7 @@ export default class Wallet extends Component {
                   type="text"
                   className="form-control"
                   id="address"
-                  value={currentWallet.Address}
+                  value={currentWallet.address}
                   onChange={this.onChangeAddress}
                 />
               </div>

@@ -12,7 +12,7 @@ export default class AddWallet extends Component {
     this.state = {
       id: null,
       wallet: "",
-      Address: "", 
+      address: "", 
       published: false,
 
       submitted: false
