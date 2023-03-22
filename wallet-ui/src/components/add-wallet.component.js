@@ -27,7 +27,7 @@ export default class AddWallet extends Component {
 
   onChangeAddress(e) {
     this.setState({
-      Address: e.target.value
+      address: e.target.value
     });
   }
 
